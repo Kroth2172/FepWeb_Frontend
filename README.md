@@ -8,12 +8,14 @@
 
 # Tela de Login
 
-  ![2](https://github.com/Kroth2172/FepWeb_Front/assets/152318382/d35da6d7-895a-4d39-9ff5-f8daa7bf6f2d)
+  ![2](https://github.com/Kroth2172/FepWeb_Frontend/assets/152318382/23648fbb-68d8-43e5-b1b1-0ca5034d2940)
+
 
 # Usuário Admin
 - usuário admin consegue ter uma visibilidade de todos os participantes dos usuários cadastrados na empresa
   
-![3](https://github.com/Kroth2172/FepWeb_Front/assets/152318382/312e4a2c-1e69-43fc-958d-d71579d856d0)
+![3](https://github.com/Kroth2172/FepWeb_Frontend/assets/152318382/15b4788c-0a92-48ab-a4e9-48840ad88a14)
+
 
 # Selecionando Usuário
 - Lista dos participantes do usuário selecionado e os três botões:
@@ -22,27 +24,32 @@
 - 3 -> Adicionar Usuário (padrão): Adiciona novo usuário padrão no sistema
 - Usuario admin consegue editar e excluir participantes do usuário selecionado na coluna "Ação"
   
-![4](https://github.com/Kroth2172/FepWeb_Front/assets/152318382/e7d57271-8a9c-49d1-8800-b639d63fcba4)
+![4](https://github.com/Kroth2172/FepWeb_Frontend/assets/152318382/cbe91614-a88b-420d-889f-14d1529989b8)
+
 
 # Cadastro de participantes
 
-![5](https://github.com/Kroth2172/FepWeb_Front/assets/152318382/ccea5b0e-1a77-43ba-8598-67fbde40b0f7)
+![5](https://github.com/Kroth2172/FepWeb_Frontend/assets/152318382/874cf7da-69c2-45b0-9717-5d8837c3cdb9)
+
 
 # Cadastro de Empresa e Usuário Admin
 - Cadastrando um novo usuário o mesmo pode fazer login no sistema e cadastrar seus participantes
   
-![6](https://github.com/Kroth2172/FepWeb_Front/assets/152318382/3258757a-a743-42c7-b0ca-2294a51b9c7c)
+![6](https://github.com/Kroth2172/FepWeb_Frontend/assets/152318382/6e51e99d-67f6-4064-bec8-3143a3801a4f)
+
 
 # Cadastro de Usuário Padrão
-![7](https://github.com/Kroth2172/FepWeb_Front/assets/152318382/dcf400d4-103c-43f5-ba6f-250d7eac5ecc)
+![7](https://github.com/Kroth2172/FepWeb_Frontend/assets/152318382/6f92d5ca-819e-454e-b3d9-da84469c5c11)
+
 
 # Tela de Usuário (Padrão)
 - Pode cadastrar e visualizar seus participantes
   
-![8](https://github.com/Kroth2172/FepWeb_Front/assets/152318382/b4801718-d2e7-47e8-a42f-6864e61cd517)
+![8](https://github.com/Kroth2172/FepWeb_Frontend/assets/152318382/51c0d7d0-fdb1-4bd0-bf7d-db841e88c843)
 
 # Deslogar/Sair do sistema
 - Canto superior direito você pode trocar de usuário
   
-  ![image](https://github.com/Kroth2172/FepWeb_Front/assets/152318382/1e06c6a0-8869-491a-8c64-ff19cfc3afe8)
+  ![image](https://github.com/Kroth2172/FepWeb_Frontend/assets/152318382/3e1c08d9-80c5-4bf3-b41e-2c9285792df3)
+
 
