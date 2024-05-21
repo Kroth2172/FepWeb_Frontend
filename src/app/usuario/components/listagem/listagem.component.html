@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="mat-div-buttons">
+    <button class="mat-buttons" mat-flat-button color="warn" routerLink="/usuario"> Adicionar Participante </button>
+  </div>
+
+<mat-table [dataSource]="dataSource" matSort>
+
+  <mat-header-row *matHeaderRowDef="colunas"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: colunas;"></mat-row>
+
+  <!-- Codigo -->
+  <ng-container matColumnDef="codigo">
+    <mat-header-cell *matHeaderCellDef> Código </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.codigo}}</mat-cell>
+  </ng-container>
+  <!-- Nome -->
+  <ng-container matColumnDef="nome">
+    <mat-header-cell *matHeaderCellDef> Nome </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.nome}}</mat-cell>
+  </ng-container>
+  <!-- E-Mail -->
+  <ng-container matColumnDef="email">
+    <mat-header-cell *matHeaderCellDef> E-Mail </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.email}}</mat-cell>
+  </ng-container>
+  <!-- Sexo -->
+  <ng-container matColumnDef="sexo">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>
+      Sexo
+    </mat-header-cell>
+    <mat-cell *matCellDef="let participante">
+      {{ participante.sexo | sexo }}
+    </mat-cell>
+  </ng-container>
+  <!-- Estado Civil -->
+  <ng-container matColumnDef="estadoCivil">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>
+      Estado Civil
+    </mat-header-cell>
+    <mat-cell *matCellDef="let participante">
+      {{ participante.estadoCivil | estadoCivil }}
+    </mat-cell>
+  </ng-container>
+  <!-- Data Nascimento -->
+  <ng-container matColumnDef="data">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>
+      Data
+    </mat-header-cell>
+    <mat-cell *matCellDef="let participante">
+      {{ participante.data | data }}
+    </mat-cell>
+  </ng-container>
+  <!-- Status -->
+  <ng-container matColumnDef="status">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>
+      Status
+    </mat-header-cell>
+    <mat-cell *matCellDef="let participante">
+      {{ participante.status | status }}
+    </mat-cell>
+  </ng-container>
+
+</mat-table>
+
+<mat-paginator #paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 15, 25]">
+</mat-paginator>
+
+</div>

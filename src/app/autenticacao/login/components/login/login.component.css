@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    margin: auto;
+    gap: 24px;
+    width: 600px;
+  }
+
+  .mat-list-base {
+    padding-top: 20%;
+  }

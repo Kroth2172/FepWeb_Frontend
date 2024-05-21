@@ -1,0 +1,59 @@
+<div fxLayoutAlign="center">
+	<form [formGroup]="form" fxLayoutAlign="center" novalidate>
+		
+		<mat-list>
+			<!-- Codigo -->
+			<mat-list-item> <input matInput placeholder="Código" formControlName="codigo"> </mat-list-item>
+			<!-- Codigo externo -->
+			<mat-list-item> <input matInput placeholder="Código Externo" formControlName="codigoExterno"> </mat-list-item>
+			<!-- Nome -->
+			<mat-list-item> <input matInput placeholder="Nome" formControlName="nome"> </mat-list-item>
+			<!-- E-Mail -->
+			<mat-list-item> <input matInput placeholder="E-Mail" formControlName="email"> </mat-list-item>
+			<!-- CPF -->
+			<mat-list-item> <input matInput placeholder="CPF" formControlName="cpf" mascara="999.999.999-99"> </mat-list-item>
+			<!-- Sexo -->
+			<mat-list-item>
+				<mat-select placeholder="Sexo" formControlName="sexo">
+					<mat-option *ngFor="let sexo of sexos" [value]="sexo">
+						{{ sexo | sexo }}
+					</mat-option>
+				</mat-select>
+			</mat-list-item>
+			<!-- Estado Civil -->
+			<mat-list-item>
+				<mat-select placeholder="Estado Cívil" formControlName="estadoCivil">
+					<mat-option *ngFor="let estadoCivil of estadosCivil" [value]="estadoCivil">
+						{{ estadoCivil | estadoCivil }}
+					</mat-option>
+				</mat-select>
+			</mat-list-item>
+			<!-- Observação -->
+			<mat-list-item> <input matInput placeholder="Observação" formControlName="observacao"> </mat-list-item>
+			<!-- Data Nascimento -->
+			<mat-list-item>
+				<mat-form-field>
+					<input matInput [matDatepicker]="data" placeholder="Data Nascimento" readonly="readonly"
+						formControlName="data">
+					<mat-datepicker-toggle matSuffix [for]="data"></mat-datepicker-toggle>
+					<mat-datepicker touchUi="true" #data></mat-datepicker>
+				</mat-form-field>
+			</mat-list-item>
+			<!-- Status -->
+			<mat-list-item>
+				<mat-select placeholder="Status" formControlName="status">
+					<mat-option *ngFor="let status of status" [value]="status">
+						{{ status | status }}
+					</mat-option>
+				</mat-select>
+			</mat-list-item>
+
+			<mat-list-item fxLayoutAlign="center">
+				<button mat-raised-button color="primary" (click)="cadastrar()">
+					Salvar
+				</button>
+			</mat-list-item>
+
+		</mat-list>
+	</form>
+</div>
